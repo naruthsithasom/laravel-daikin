@@ -23,14 +23,19 @@ if(Session::get('lang') == null){
 }
 
 // ***********************************************************************************************************************
- Route::get('/','CorporateInfoController@setLang');
- Route::get('/setlang','CorporateInfoController@setlangFirst'); 
+ Route::get('/','frontend\CorporateInfoController@setLang');
+ Route::get('/setlang','frontend\CorporateInfoController@setlangFirst'); 
  foreach($lang as $i){
-  Route::get("/$i",'CorporateInfoController@index');
-  Route::get("/$i/vision-mission",'CorporateInfoController@vision_mission');
-  Route::get("/$i/production","ManufacturingController@production");
+  Route::get("/$i",'frontend\CorporateInfoController@index');
+  Route::get("/$i/vision-mission",'frontend\CorporateInfoController@vision_mission');
+  Route::get("/$i/production","frontend\ManufacturingController@production");
  }
- Route::get('/dashboard/home','BackOfficeController@index');
- Route::get('/dashboard/home','BackOfficeController@index');
-//  Route::get('/change_laguage_show/{lang}',[MenuHeadController::class, 'change_laguage_show'])->name('change_laguage_show');
+ Route::get('/dashboard/home','backend\BackofficeController@index');
+ Route::get('/dashboard/production_process','backend\BackofficeController@production_process');
+ Route::get('/dashboard/production_process/add','backend\BackofficeController@production_process_add');
+ Route::get('/dashboard/production_process/edit','backend\BackofficeController@production_process_edit');
+ Route::get('/dashboard/quality_control','backend\BackofficeController@quality_control');
+ Route::get('/dashboard/product_technology','backend\BackofficeController@product_technology');
+ Route::get('/dashboard/news_activities','backend\BackofficeController@news_activities');
+
 

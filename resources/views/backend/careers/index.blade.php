@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<h1>
+  Careers Index
+</h1><!DOCTYPE html>
 <html lang="en" class="light">
 <!-- BEGIN: Head -->
 
@@ -15,10 +17,10 @@
       <div class="content">
           <div class="intro-y flex flex-col sm:flex-row items-center mt-8">
               <h2 class="text-lg font-medium mr-auto">
-              Manufacturing / Production Procress 
+              Careers  
               </h2>
               <div class="w-full sm:w-auto flex mt-4 sm:mt-0">
-                  <button class="btn btn-primary shadow-md mr-2" onclick="location.href='{{ url('/dashboard/production_process/add') }}'">Add New</button>
+                  <button class="btn btn-primary shadow-md mr-2" onclick="location.href='{{ url('/dashboard/careers/add') }}'">Add New</button>
               </div>
           </div>
       <div class="grid grid-cols-12 gap-6 mt-5">
@@ -28,22 +30,18 @@
                   <table class="table table-report -mt-2">
                       <thead>
                           <tr>
-                              <th class="text-center whitespace-nowrap">No.</th>
-                              <th class="text-center whitespace-nowrap">Sort</th>
-                              <th class="text-center whitespace-nowrap">Header Text TH</th>
-                              <th class="text-center whitespace-nowrap">Header Text EN</th>
-                              <th class="text-center whitespace-nowrap">Photo Gallery</th>
-                              <th class="text-center whitespace-nowrap">Status</th>
-                              <th class="text-center whitespace-nowrap">Actions</th>
+                              <th class="text-center whitespace-nowrap">ลำดับ</th>
+                               <th class="text-center whitespace-nowrap">ชื่อตำแหน่งงาน</th>
+                              <th class="text-center whitespace-nowrap">จำนวนคนสมัคงาน</th>
+                              <th class="text-center whitespace-nowrap">ปิด/เปิดใช้งาน</th>
+                              <th class="text-center whitespace-nowrap">ACTIONS</th>
                           </tr>
                       </thead>
                       <tbody>
                           <tr class="intro-x">
                               <td class="text-center">1</td>
-                              <td class="text-center">1</td>
-                              <td class="text-center">Text THAI</td>
-                              <td class="text-center">Text ENGLISH</td>
-                              <td class="text-center">20</td>
+                              <td class="text-center">QC&QA Engineer</td>
+                               <td class="text-center">20</td>
                               <td class="w-40">
                                   <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
                               </td>
@@ -55,11 +53,9 @@
                               </td>
                           </tr>
                           <tr class="intro-x">
-                          <td class="text-center">2</td>
                               <td class="text-center">2</td>
-                              <td class="text-center">Text THAI</td>
-                              <td class="text-center">Text ENGLISH</td>
-                              <td class="text-center">10</td>
+                              <td class="text-center">Japanese Interpreter</td>
+                               <td class="text-center">10</td>
                               <td class="w-40">
                                   <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
                               </td>

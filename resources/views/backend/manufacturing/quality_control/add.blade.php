@@ -15,11 +15,11 @@
         <div class="content">
             <div class="intro-y flex flex-col sm:flex-row items-center mt-8">
                 <h2 class="text-lg font-medium mr-auto">
-                    Manufacturing / Production Procress  / Add
+                    Manufacturing / Quality Control / Add
                 </h2>
                 <div class="w-full sm:w-auto flex mt-4 sm:mt-0">
                     <button class="btn btn-primary shadow-md mr-2 w-24"
-                        onclick="location.href='{{ url('/dashboard/production_process') }}'">Back</button>
+                        onclick="location.href='{{ url('/dashboard/quality_control') }}'">Back</button>
                 </div>
             </div>
 

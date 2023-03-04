@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">plant tour</div>
-            <img src="images/banner-planttour.webp" alt="">
+            <img src="/frontend/images/banner-planttour.webp" alt="">
         </figure>
     </div>
 </section>
@@ -30,7 +30,7 @@
                     <div class="box-noteplant">
                         <div class="row">
                             <div class="col-12 col-md-5">
-                                <img src="images/photo-office_03.jpg" alt="">
+                                <img src="/frontend/images/photo-office_03.jpg" alt="">
                             </div>
                             <div class="col-12 col-md-7">
                                 <div class="desc-noteplant">
@@ -40,7 +40,7 @@
                                         <li>เปิดให้ลงทะเบียนล่วงหน้าภายใน 30 วัน</li>
                                     </ul>
                                     <p>หมายเหตุ :  ทางบริษัท จะพิจารณาและติดต่อกลับภายใน 7 วัน</p>
-                                    <a href="planttour-detail.php" class="btn-default btn-blue"><i class="bi bi-card-list"></i> รายละเอียดการเยี่ยมชมโรงงาน</a>
+                                    <a href="{{ url('/'.Session::get('Lang').'/planttour_detail') }}" class="btn-default btn-blue"><i class="bi bi-card-list"></i> รายละเอียดการเยี่ยมชมโรงงาน</a>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                                 <input type="text" class="form-control">
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 frm-career">
-                                <img src="images/capcha.png" class="capcha" alt="">
+                                <img src="/frontend/images/capcha.png" class="capcha" alt="">
                             </div>
                             <div class="col-12 col-md-6 col-lg-8 frm-career text-end">
                                 <button class="btn-default btn-blue"><i class="bi bi-envelope"></i> send</button>
@@ -171,8 +171,8 @@
 </section>
 
 
-<?php require('inc_contactplant.php'); ?>
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_contactplant')
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(8) > a" ).addClass( "here" );

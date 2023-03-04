@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Company History</div>
-            <img src="images/banner-history.webp" alt="">
+            <img src="/frontend/images/banner-history.webp" alt="">
         </figure>
     </div>
 </section>
@@ -37,7 +37,7 @@
             <div class="row line-timeline">
                 <div class="col-12 col-lg-6 box-history wow fadeInRight">
                     <div class="item-history">
-                        <figure><img src="images/history_03.png" alt=""></figure>
+                        <figure><img src="/frontend/images/history_03.png" alt=""></figure>
                         <div class="desc-history">
                             <div class="topic-history txt-yellow">Year 2001</div>
                             <p>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-12 col-lg-6 box-history wow fadeInLeft">
                     <div class="item-history">
-                        <figure><img src="images/history_06.png" alt=""></figure>
+                        <figure><img src="/frontend/images/history_06.png" alt=""></figure>
                         <div class="desc-history">
                             <div class="topic-history txt-orange">Year 2002</div>
                             <p>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-12 col-lg-6 box-history wow fadeInLeft">
                     <div class="item-history">
-                        <figure><img src="images/history_09.png" alt=""></figure>
+                        <figure><img src="/frontend/images/history_09.png" alt=""></figure>
                         <div class="desc-history">
                             <div class="topic-history txt-red">Year 2003</div>
                             <p>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-12 col-lg-6 box-history wow fadeInLeft">
                     <div class="item-history">
-                        <figure><img src="images/history_11.png" alt=""></figure>
+                        <figure><img src="/frontend/images/history_11.png" alt=""></figure>
                         <div class="desc-history">
                             <div class="topic-history txt-purple">Year 2015</div>
                             <p>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-12 col-lg-6 box-history wow fadeInLeft">
                     <div class="item-history">
-                        <figure><img src="images/history_13.png" alt=""></figure>
+                        <figure><img src="/frontend/images/history_13.png" alt=""></figure>
                         <div class="desc-history">
                             <div class="topic-history txt-blue">Year 2016</div>
                             <p>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-12 col-lg-6 box-history wow fadeInLeft">
                     <div class="item-history">
-                        <figure><img src="images/history_15.png" alt=""></figure>
+                        <figure><img src="/frontend/images/history_15.png" alt=""></figure>
                         <div class="desc-history">
                             <div class="topic-history txt-green">Year 2017</div>
                             <p>
@@ -107,7 +107,7 @@
 </section>
 
 
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(2) > a" ).addClass( "here" );

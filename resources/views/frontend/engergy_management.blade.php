@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Engergy Management</div>
-            <img src="images/banner-energy.webp" alt="">
+            <img src="/frontend/images/banner-energy.webp" alt="">
         </figure>
     </div>
 </section>
@@ -37,23 +37,23 @@
             </div>
             <div class="row">
                 <div class="col-6 col-lg-3 photo-energy">
-                    <a href="images/energy01.webp" data-fancybox="gallery">
-                        <figure><img src="images/energy01.webp" alt=""></figure>
+                    <a href="/frontend/images/energy01.webp" data-fancybox="gallery">
+                        <figure><img src="/frontend/images/energy01.webp" alt=""></figure>
                     </a>
                 </div>
                 <div class="col-6 col-lg-3 photo-energy">
-                    <a href="images/energy02.webp" data-fancybox="gallery">
-                        <figure><img src="images/energy02.webp" alt=""></figure>
+                    <a href="/frontend/images/energy02.webp" data-fancybox="gallery">
+                        <figure><img src="/frontend/images/energy02.webp" alt=""></figure>
                     </a>
                 </div>
                 <div class="col-6 col-lg-3 photo-energy">
-                    <a href="images/energy03.webp" data-fancybox="gallery">
-                        <figure><img src="images/energy03.webp" alt=""></figure>
+                    <a href="/frontend/images/energy03.webp" data-fancybox="gallery">
+                        <figure><img src="/frontend/images/energy03.webp" alt=""></figure>
                     </a>
                 </div>
                 <div class="col-6 col-lg-3 photo-energy">
-                    <a href="images/energy04.webp" data-fancybox="gallery">
-                        <figure><img src="images/energy04.webp" alt=""></figure>
+                    <a href="/frontend/images/energy04.webp" data-fancybox="gallery">
+                        <figure><img src="/frontend/images/energy04.webp" alt=""></figure>
                     </a>
                 </div>
             </div>
@@ -62,7 +62,7 @@
 </section>
 
 
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(6) > a" ).addClass( "here" );

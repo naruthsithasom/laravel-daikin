@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Safety</div>
-            <img src="images/banner-safety.webp" alt="">
+            <img src="/frontend/images/banner-safety.webp" alt="">
         </figure>
     </div>
 </section>
@@ -29,7 +29,7 @@
                         <div class="title-manufac">Sustaintability</div>
                         <div class="topic-about">Safety <div>management</div></div>
                         <div class="txt-vision">Daikin Compressor Industries Co., Ltd.</div>
-                        <figure><img src="images/safety.webp" alt=""></figure>
+                        <figure><img src="/frontend/images/safety.webp" alt=""></figure>
                         <p>
                         places importance on safety and considers it a part of business operations. has managed the organization with the emphasis on the safety of employees as the first priority by carrying out a variety of activities to achieve zero accidents with everyone's participation Along with producing quality products for the utmost customer satisfaction. along with caring for the environment and society
                         </p>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 col-xl-7 photo-safety wow fadeInRight">
-                    <figure><img src="images/safety.webp" alt=""></figure>
+                    <figure><img src="/frontend/images/safety.webp" alt=""></figure>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                                 <div class="topic-about">Safety <div>Culture</div></div>
                             </div>
                             <div class="col-2 text-end">
-                                <img src="images/icon-safety_03.png" alt="">
+                                <img src="/frontend/images/icon-safety_03.png" alt="">
                             </div>
                             <div class="col-12">
                             The company's safety culture is to stop, call, wait when there is a problem or something wrong. Which focuses on employees to be cautious and aware of the dangers by themselves. to prevent injuries or accidents
@@ -81,7 +81,7 @@
 </section>
 
 
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(6) > a" ).addClass( "here" );

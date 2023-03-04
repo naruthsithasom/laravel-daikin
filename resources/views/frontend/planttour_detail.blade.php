@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">plant tour</div>
-            <img src="images/banner-planttour.webp" alt="">
+            <img src="/frontend/images/banner-planttour.webp" alt="">
         </figure>
     </div>
 </section>
@@ -76,8 +76,8 @@
 </section>
 
 
-<?php require('inc_contactplant.php'); ?>
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_contactplant')
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(8) > a" ).addClass( "here" );

@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head') 
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu') 
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Environmental Management</div>
-            <img src="images/banner-environment.webp" alt="">
+            <img src="/frontend/images/banner-environment.webp" alt="">
         </figure>
     </div>
 </section>
@@ -33,7 +33,7 @@
             </div>
             <div class="row item-environment">
                 <div class="col-12 col-lg-7 wow fadeInLeft">
-                    <figure><img src="images/environment_03.png" alt=""></figure>
+                    <figure><img src="/frontend/images/environment_03.png" alt=""></figure>
                 </div>
                 <div class="col-12 col-lg-5 wow fadeInRight">
                     <div class="box-environment">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 environ-order2 wow fadeInRight">
-                    <figure><img src="images/environment_07.jpg" alt=""></figure>
+                    <figure><img src="/frontend/images/environment_07.jpg" alt=""></figure>
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
             <a href="#" target="_blank" class="btn-default btn-blue">Download Files <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
         </div>
         <div class="col-12">
-            <figure><img src="images/environment_10.jpg" alt=""></figure>
+            <figure><img src="/frontend/images/environment_10.jpg" alt=""></figure>
         </div>
         <div class="col-12 col-xl-6">
             <div class="left-environment3">
@@ -110,7 +110,7 @@
 </section>
 
 
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(6) > a" ).addClass( "here" );

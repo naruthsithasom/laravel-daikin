@@ -29,4 +29,7 @@ class ManufacturingController extends Controller
     function production(){
       return view('frontend.production');
     }
+    function quality_control(){
+      return view('frontend.quality_control');
+    }
 }

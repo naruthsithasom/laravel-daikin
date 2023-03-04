@@ -16,7 +16,7 @@
                             <div>E-mail: contact@dci.co.th</div>
                         </div>
                         <div class="btn-contactplant">
-                            <a href="contact.php" class="btn-default btn-blue"><i class="bi bi-envelope"></i> ติดต่อเรา</a>
+                            <a href="{{ url('/'.Session::get('Lang').'/contact') }}" class="btn-default btn-blue"><i class="bi bi-envelope"></i> ติดต่อเรา</a>
                             <a href="https://www.google.com/maps?ll=12.977407,101.109645&z=16&t=m&hl=th&gl=US&mapclient=embed&cid=4159845360108902594" class="btn-default btn-border" target="_blank"><i class="bi bi-geo-alt"></i> ดูแผนที่ Google maps</a>
                         </div>
                     </div>

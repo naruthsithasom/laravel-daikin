@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head') 
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu') 
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Company Policy</div>
-            <img src="images/banner-policydci.webp" alt="">
+            <img src="/frontend/images/banner-policydci.webp" alt="">
         </figure>
     </div>
 </section>
@@ -35,7 +35,7 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-4 item-policy wow fadeInDown">
-            <figure><img src="images/policyDCI_03.jpg" alt=""></figure>
+            <figure><img src="/frontend/images/policyDCI_03.jpg" alt=""></figure>
             <div class="desc-policydci">
                 <div>Security [S]</div>
                 <ul class="policy-listdot dot-yellow">
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 item-policy wow fadeInDown">
-            <figure><img src="images/policyDCI_05.jpg" alt=""></figure>
+            <figure><img src="/frontend/images/policyDCI_05.jpg" alt=""></figure>
             <div class="desc-policydci">
                 <div>Quality [Q] </div>
                 <ul class="policy-listdot dot-blue">
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 item-policy wow fadeInDown">
-            <figure><img src="images/policyDCI_07.jpg" alt=""></figure>
+            <figure><img src="/frontend/images/policyDCI_07.jpg" alt=""></figure>
             <div class="desc-policydci">
                 <div>Environment [E]</div>
                 <ul class="policy-listdot dot-green">
@@ -78,7 +78,7 @@
     </div>
 </section>
 
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer') 
 
 <script>
 	$( ".menubar > li:nth-child(2) > a" ).addClass( "here" );

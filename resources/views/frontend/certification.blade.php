@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	 @include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+ @include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Certificate</div>
-            <img src="images/banner-certificate.webp" alt="">
+            <img src="/frontend/images/banner-certificate.webp" alt="">
         </figure>
     </div>
 </section>
@@ -31,19 +31,19 @@
                         <div class="row">
                             <div class="col-4 item-cer">
                                 <a href="pdf/CertificateISO9001-2015.pdf" target="_blank">
-                                    <img src="images/iso_9001.webp" alt="">
+                                    <img src="/frontend/images/iso_9001.webp" alt="">
                                     ISO 9001:2015
                                 </a>
                             </div>
                             <div class="col-4 item-cer">
                                 <a href="pdf/ISO14001.pdf" target="_blank">
-                                    <img src="images/iso_14001.webp" alt="">
+                                    <img src="/frontend/images/iso_14001.webp" alt="">
                                     ISO 14001:2015
                                 </a>
                             </div>
                             <div class="col-4 item-cer">
                                 <a href="pdf/CertificateISO45001-2018.pdf" target="_blank">
-                                    <img src="images/iso_45001.webp" alt="">
+                                    <img src="/frontend/images/iso_45001.webp" alt="">
                                     ISO 45001:2018
                                 </a>
                             </div>
@@ -58,7 +58,7 @@
 <section class="row wrap-strategy wow fadeInDown">
     <div class="col-12">
         <div class="img-strategy">
-            <figure><img src="images/photo-yearcer.webp" alt=""></figure>
+            <figure><img src="/frontend/images/photo-yearcer.webp" alt=""></figure>
         </div>
         <div class="desc-yearcer desc-strategy">
             <div class="list-strategy">
@@ -79,7 +79,7 @@
 </section>
 
 
-<div class="footer-cer"><?php require('inc_footer.php'); ?></div>
+<div class="footer-cer"> @include('frontend.inc_footer')</div>
 
 <script>
 	$( ".menubar > li:nth-child(2) > a" ).addClass( "here" );

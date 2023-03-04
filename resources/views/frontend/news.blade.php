@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head') 
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu') 
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">news & Activities</div>
-            <img src="images/banner-news.webp" alt="">
+            <img src="/frontend/images/banner-news.webp" alt="">
         </figure>
     </div>
 </section>
@@ -29,10 +29,10 @@
                     <div>
                         <div class="owl-news owl-carousel owl-theme">
                             <div class="items">
-                                <a href="news-detail.php" class="item-latestnews">
+                                <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-latestnews">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
-                                            <figure><img src="images/Daikin.png" alt=""></figure>
+                                            <figure><img src="/frontend/images/Daikin.png" alt=""></figure>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <div class="box-latestnews">
@@ -48,10 +48,10 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="news-detail.php" class="item-latestnews">
+                                <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-latestnews">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
-                                            <figure><img src="images/Img-0175.jpeg" alt=""></figure>
+                                            <figure><img src="/frontend/images/Img-0175.jpeg" alt=""></figure>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <div class="box-latestnews">
@@ -67,10 +67,10 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="news-detail.php" class="item-latestnews">
+                                <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-latestnews">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
-                                            <figure><img src="images/air-purifier_0.jpeg" alt=""></figure>
+                                            <figure><img src="/frontend/images/air-purifier_0.jpeg" alt=""></figure>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <div class="box-latestnews">
@@ -86,10 +86,10 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="news-detail.php" class="item-latestnews">
+                                <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-latestnews">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
-                                            <figure><img src="images/DAIKIN_0064-1024x683.jpeg" alt=""></figure>
+                                            <figure><img src="/frontend/images/DAIKIN_0064-1024x683.jpeg" alt=""></figure>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <div class="box-latestnews">
@@ -105,10 +105,10 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="news-detail.php" class="item-latestnews">
+                                <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-latestnews">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
-                                            <figure><img src="images/DAIKIN_0005-1024x683.jpeg" alt=""></figure>
+                                            <figure><img src="/frontend/images/DAIKIN_0005-1024x683.jpeg" alt=""></figure>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <div class="box-latestnews">
@@ -134,8 +134,8 @@
 <section class="container">
     <div class="row wrap-allnews wow fadeInDown">
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/20931_220531145253.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/20931_220531145253.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -143,8 +143,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/501965.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/501965.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -152,8 +152,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/air-purifier_0.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/air-purifier_0.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -161,8 +161,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/DAIKIN_0005-1024x683.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/DAIKIN_0005-1024x683.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -170,8 +170,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/DAIKIN_0064-1024x683.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/DAIKIN_0064-1024x683.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -179,8 +179,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/Daikin.png" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/Daikin.png" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -188,8 +188,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/Img-0175.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/Img-0175.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -197,8 +197,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/photo-contact_04.webp" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/photo-contact_04.webp" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -206,8 +206,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/R3_07906-1024x683.jpeg" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/R3_07906-1024x683.jpeg" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -215,8 +215,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/photo-contact_02.webp" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/photo-contact_02.webp" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -224,8 +224,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/photohome_02.webp" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/photohome_02.webp" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -233,8 +233,8 @@
             </a>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-listnews">
-            <a href="news-detail.php" class="item-listnews">
-                <figure><img src="images/photohome_04.webp" alt=""></figure>
+            <a href="{{ url('/'.Session::get('Lang').'/news_detail') }}" class="item-listnews">
+                <figure><img src="/frontend/images/photohome_04.webp" alt=""></figure>
                 <div class="news-cpad">
                     <div class="news-date"><i class="bi bi-calendar3"></i> 05.01.2022</div>
                     <div class="title-listnews">Privacy Notice for the Visitors, the Supplier or its representative, the Participants Privacy Notice for the Visitors, the Supplier or its representative, the Participants</div>
@@ -262,7 +262,7 @@
 </section>
 
 	
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(5) > a" ).addClass( "here" );

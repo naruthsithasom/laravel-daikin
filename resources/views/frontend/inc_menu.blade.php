@@ -67,31 +67,31 @@ if ($segment5) {
                         <a href="#">@lang('phrase.ci')</a>
                         <ul class="menu-popup-submenu">
                             <li><a href="{{ url('/'.Session::get('Lang').'/vision-mission') }}">@lang('phrase.vi')</a></li>
-                            <li><a href="history.php">History</a></li>
-                            <li><a href="certificate.php">Certification</a></li>
-                            <li><a href="policyDCI.php">Policy DCI</a></li>
+                            <li><a href="{{ url('/'.Session::get('Lang').'/history') }}">@lang('phrase.hy')</a></li>
+                            <li><a href="{{ url('/'.Session::get('Lang').'/certification') }}">Certification</a></li>
+                            <li><a href="{{ url('/'.Session::get('Lang').'/policyDCI') }}">Policy DCI</a></li>
                         </ul>
                     </li>
                     <li class="menu-popup-hassub">
                         <a href="#">Manufacturing</a>
                         <ul class="menu-popup-submenu">
-                            <li><a href="{{ url('/'.Session::get('Lang').'/production') }}">Production Process555555</a></li>
-                            <li><a href="quality-control.php">Quality Control</a></li>
+                          <li><a href="{{ url('/'.Session::get('Lang').'/production') }}">Production Process</a></li>
+                          <li><a href="{{ url('/'.Session::get('Lang').'/quality_control') }}">Quality Control</a></li>
                         </ul>
                     </li>
-                    <li><a href="products.php">Product & Technology</a></li>
-                    <li><a href="news.php">News & Activities</a></li>
+                    <li><a href="{{ url('/'.Session::get('Lang').'/products') }}">Product & Technology</a></li>
+                    <li><a href="{{ url('/'.Session::get('Lang').'/news') }}">News & Activities</a></li>
                     <li class="menu-popup-hassub">
                         <a href="#">Sustainbility</a>
                         <ul class="menu-popup-submenu">
-                            <li><a href="environment.php">Environment Management</a></li>
-                            <li><a href="engergy-management.php">Engergy Management</a></li>
-                            <li><a href="safety.php">Safety</a></li>
+                          <li><a href="{{ url('/'.Session::get('Lang').'/environment_management') }}">Environment Management</a></li>
+                          <li><a href="{{ url('/'.Session::get('Lang').'/engergy_management') }}">Engergy Management</a></li>
+                          <li><a href="{{ url('/'.Session::get('Lang').'/safety') }}">Safety</a></li>
                         </ul>
                     </li>
-                    <li><a href="career.php">Careers</a></li>
-                    <li><a href="planttour.php">Plant Tour</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="{{ url('/'.Session::get('Lang').'/careers') }}">Careers</a></li>
+                    <li><a href="{{ url('/'.Session::get('Lang').'/planttour') }}">Plant Tour</a></li>
+                    <li><a href="{{ url('/'.Session::get('Lang').'/contact') }}">Contact Us</a></li>
                 </ul>
             </div>
             <div class="menu-popup-info">
@@ -130,29 +130,29 @@ if ($segment5) {
                                 <li class="hassub"><a>@lang('phrase.ci')</a>
                                     <ul class="submenu">
                                     <li><a href="{{ url('/'.Session::get('Lang').'/vision-mission') }}">@lang('phrase.vi')</a></li>
-                                        <li><a href="history.php">History</a></li>
-                                        <li><a href="certificate.php">Certification</a></li>
-                                        <li><a href="policyDCI.php">Policy DCI</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/history') }}">@lang('phrase.hy')</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/certification') }}">Certification</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/policyDCI') }}">Policy DCI</a></li>
                                     </ul>
                                 </li>
                                 <li class="hassub"><a>Manufacturing</a>
                                     <ul class="submenu">
-                                        <li><a href="{{ url('/'.Session::get('Lang').'/production') }}">Production Process6666666666</a></li>
-                                        <li><a href="quality-control.php">Quality Control</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/production') }}">Production Process</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/quality_control') }}">Quality Control</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="products.php">Product & Technology</a></li>
-                                <li><a href="news.php">News & Activities</a></li>
+                                <li><a href="{{ url('/'.Session::get('Lang').'/products') }}">Product & Technology</a></li>
+                                <li><a href="{{ url('/'.Session::get('Lang').'/news') }}">News & Activities</a></li>
                                 <li class="hassub"><a>Sustainbility</a>
                                     <ul class="submenu">
-                                        <li><a href="environment.php">Environment Management</a></li>
-                                        <li><a href="engergy-management.php">Engergy Management</a></li>
-                                        <li><a href="safety.php">Safety</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/environment_management') }}">Environment Management</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/engergy_management') }}">Engergy Management</a></li>
+                                        <li><a href="{{ url('/'.Session::get('Lang').'/safety') }}">Safety</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="career.php">Careers</a></li>
-                                <li><a href="planttour.php">Plant Tour</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a href="{{ url('/'.Session::get('Lang').'/careers') }}">Careers</a></li>
+                                <li><a href="{{ url('/'.Session::get('Lang').'/planttour') }}">Plant Tour</a></li>
+                                <li><a href="{{ url('/'.Session::get('Lang').'/contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -163,9 +163,9 @@ if ($segment5) {
 </div>
 <script>
     //first
- 
-  
 
- 
+
+
+
 
 </script>

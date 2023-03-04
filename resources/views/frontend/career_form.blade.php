@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+	@include('frontend.inc_head')
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">careers</div>
-            <img src="images/banner-careerform.webp" alt="">
+            <img src="/frontend/images/banner-careerform.webp" alt="">
         </figure>
     </div>
 </section>
@@ -29,7 +29,7 @@
                     <div class="head-careerform"><i class="bi bi-person-vcard"></i> ประวัติส่วนตัว/เงินเดือนที่ต้องการ</div>
                     <div class="row">
                         <div class="col-12 col-md-3 col-lg-2">
-                            <div class="carer-profile"><img src="images/profile_03.jpg" alt=""></div>
+                            <div class="carer-profile"><img src="/frontend/images/profile_03.jpg" alt=""></div>
                             <div class="btn-uploadimg">
                                 <input type="file">
                                 <i class="bi bi-camera"></i> แนบรูปถ่าย
@@ -676,7 +676,7 @@
 
 
 	
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(7) > a" ).addClass( "here" );

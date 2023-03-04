@@ -24,6 +24,7 @@ return [
     'aeu' => 'อุปกรณ์ขั้นสูงที่ใช้ในการควบคุมคุณภาพ',
     'ci' => 'หน้า ci',
     'vi' => 'หน้า vi',
+    'hy' => 'หน้า history',
     'vmContent' => ['text1' => 'vision-mission TH', 'text2' => 'VISION TH']
 ];
 // @lang('phrase.index1')

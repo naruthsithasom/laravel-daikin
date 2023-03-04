@@ -23,7 +23,8 @@ return [
    'footerform' => 'Please fill out the below and we will get back to you as soon as possible.',
    'aeu' => 'Advanced Equipment Used To Control Quality',
    'ci' => 'Corporate Info',
-   'vm' => 'vision-mission',
+   'vi' => 'vision-mission',
+   'hy' => 'history',
    'vmContent' => ['text1' => 'vision-mission', 'text2' => 'VISION']
 ];
 // @lang('phrase.index1')

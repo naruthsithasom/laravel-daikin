@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<?php require('inc_head.php'); ?>
+@include('frontend.inc_head') 
 </head>
 
 <body>
 
 <div class="container-fluid">
 	
-<?php require('inc_menu.php'); ?>
+@include('frontend.inc_menu')
 
 <section class="row">
     <div class="col-12 banner-inside wow fadeInDown">
         <figure>
             <div class="title-banner">Quality Control</div>
-            <img src="images/banner-policydci.webp" alt="">
+            <img src="/frontend/images/banner-policydci.webp" alt="">
         </figure>
     </div>
 </section>
@@ -31,7 +31,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-7 wow fadeInLeft">
-                            <figure><img src="images/Quality-Control_03.jpg" alt=""></figure>
+                            <figure><img src="/frontend/images/Quality-Control_03.jpg" alt=""></figure>
                         </div>
                         <div class="col-12 col-lg-5 wow fadeInRight">
                             <div class="desc-manufac">
@@ -52,7 +52,7 @@ probe that is high precision
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-7 wow fadeInLeft">
-                            <figure><img src="images/quality_03.png" alt=""></figure>
+                            <figure><img src="/frontend/images/quality_03.png" alt=""></figure>
                         </div>
                         <div class="col-12 col-lg-5 wow fadeInRight">
                             <div class="desc-manufac">
@@ -71,7 +71,7 @@ according to international standards
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-7 wow fadeInLeft">
-                            <figure><img src="images/Quality-Control_07.jpg" alt=""></figure>
+                            <figure><img src="/frontend/images/Quality-Control_07.jpg" alt=""></figure>
                         </div>
                         <div class="col-12 col-lg-5 wow fadeInRight">
                             <div class="desc-manufac">
@@ -92,7 +92,7 @@ such as 3D surface scanners.
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-7 wow fadeInLeft">
-                            <figure><img src="images/Quality-Control_10.jpg" alt=""></figure>
+                            <figure><img src="/frontend/images/Quality-Control_10.jpg" alt=""></figure>
                         </div>
                         <div class="col-12 col-lg-5 wow fadeInRight">
                             <div class="desc-manufac">
@@ -115,7 +115,7 @@ functional team.
     </div>
 </section>
 
-<?php require('inc_footer.php'); ?>
+@include('frontend.inc_footer')
 
 <script>
 	$( ".menubar > li:nth-child(3) > a" ).addClass( "here" );

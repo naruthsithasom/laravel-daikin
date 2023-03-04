@@ -15,10 +15,10 @@
       <div class="content">
           <div class="intro-y flex flex-col sm:flex-row items-center mt-8">
               <h2 class="text-lg font-medium mr-auto">
-              Manufacturing / Production Procress 
+              Manufacturing / Production Detail  
               </h2>
               <div class="w-full sm:w-auto flex mt-4 sm:mt-0">
-                  <button class="btn btn-primary shadow-md mr-2" onclick="location.href='{{ url('/dashboard/production_process/add') }}'">Add New</button>
+                  <button class="btn btn-primary shadow-md mr-2" onclick="location.href='{{ url('/dashboard/production_detail/add') }}'">Add New</button>
               </div>
           </div>
       <div class="grid grid-cols-12 gap-6 mt-5">
@@ -28,13 +28,13 @@
                   <table class="table table-report -mt-2">
                       <thead>
                           <tr>
-                              <th class="text-center whitespace-nowrap">No.</th>
-                              <th class="text-center whitespace-nowrap">Sort</th>
-                              <th class="text-center whitespace-nowrap">Header Text TH</th>
-                              <th class="text-center whitespace-nowrap">Header Text EN</th>
-                              <th class="text-center whitespace-nowrap">Photo Gallery</th>
-                              <th class="text-center whitespace-nowrap">Status</th>
-                              <th class="text-center whitespace-nowrap">Actions</th>
+                              <th class="text-center whitespace-nowrap">NO.</th>
+                              <th class="text-center whitespace-nowrap">SORT</th>
+                              <th class="text-center whitespace-nowrap">TEXT TH</th>
+                              <th class="text-center whitespace-nowrap">TEXT EN</th>
+                              <th class="text-center whitespace-nowrap">IMAGES</th>
+                              <th class="text-center whitespace-nowrap">STATUS</th>
+                              <th class="text-center whitespace-nowrap">ACTIONS</th>
                           </tr>
                       </thead>
                       <tbody>

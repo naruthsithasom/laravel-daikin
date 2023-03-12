@@ -13,7 +13,7 @@
         <section class="row">
             <div class="col-12 banner-inside wow fadeInDown">
                 <figure>
-                    <div class="title-banner">@lang('phrase.vmContent.text1')</div>
+                    <div class="title-banner">@lang('phrase.vmSection1.text1')</div>
                     <img src="/frontend/images/banner-vision.webp" alt="">
                 </figure>
             </div>
@@ -23,12 +23,9 @@
             <div class="row">
                 <div class="col-12 wow fadeInDown">
                     <div class="box-vision">
-                        <div class="topic-about">VISION</div>
-                        <div class="txt-vision">“To be a production base for air conditioner parts (Key device) of the
-                            Daikin group developed into the DX-factory. <br>
-                            For maximum efficiency in production at low cost ”</div>
-                        <p>within a period of 5 years (FUSION 25) (year 2021 - year 2025) under a production system that
-                            is safe and environmentally friendly.</p>
+                        <div class="topic-about">@lang('phrase.vmSection2.text1')</div>
+                        <div class="txt-vision">@lang('phrase.vmSection2.text2')</div>
+                        <p>@lang('phrase.vmSection2.text3')</p>
                     </div>
                 </div>
             </div>
@@ -46,19 +43,17 @@
                         <div class="col-12">
                             <div class="icon-vision01 wow fadeInDown">
                                 <img src="/frontend/images/icon-vision_08.png" alt="">
-                                <div>เป็นผู้นำธุรกิจผลิตและจำหน่ายคอมเพรสเซอร์ สำหรับเครื่องปรับอากาศอันดับ 1 ของโลก
+                                <div>@lang('phrase.vmSection3.text1')
                                 </div>
                             </div>
                             <div class="icon-vision02 wow fadeInDown">
                                 <img src="/frontend/images/icon-vision_11.png" alt="">
-                                <div>เป็นผู้นำในธุระกิจผลิตคอมเพรสเซอร์สำหรับเครื่องปรับอากาศในกลุ่มบริษัทไดกิ้น”
-                                    ภายในระยะเวลา 5ปี (2559 – 2563) ภายใต้ระบบการผลิตที่มีความปลอดภัยและรักษาสิ่งแวดล้อม
+                                <div>@lang('phrase.vmSection3.text2')
                                 </div>
                             </div>
                             <div class="icon-vision03 wow fadeInDown">
                                 <img src="/frontend/images/icon-vision_05.png" alt="">
-                                <div>ผู้นำธุรกิจผลิตคอมเพรสเซอร์สำหรับเครื่องปรับอากาศแบบอินเวอร์เตอร์ด้านคุณภาพ
-                                    (Quality) ภายในปี 2563</div>
+                                <div>@lang('phrase.vmSection3.text3')</div>
                             </div>
                         </div>
                     </div>
@@ -71,15 +66,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="topic-about">MISSION</div>
+                            <div class="topic-about">@lang('phrase.vmSection4.text1')</div>
                             <ul>
-                                <li>To be a manufacturer and develop new products. high quality and low price</li>
-                                <li>Control the company's operation process to be a process that is safe and
-                                    environmentally friendly.</li>
-                                <li>Maximize the use of resources in the company's operational processes.</li>
-                                <li>Develop personnel to be able to operate systematically and be able to upgrade and
-                                    expand knowledge at the regional level.</li>
-                                <li>Support the work of surrounding communities and regional societies.</li>
+                                <li>@lang('phrase.vmSection4.text2')</li>
+                                <li>@lang('phrase.vmSection4.text3')</li>
+                                <li>@lang('phrase.vmSection4.text4')</li>
+                                <li>@lang('phrase.vmSection4.text5')</li>
+                                <li>@lang('phrase.vmSection4.text6')</li>
                             </ul>
                         </div>
                     </div>
@@ -94,15 +87,14 @@
                 </div>
                 <div class="desc-strategy">
                     <div class="list-strategy">
-                        <div class="topic-about">CORPORATE <div>STRATEGY</div>
+                        <div class="topic-about">@lang('phrase.vmSection5.text1')
                         </div>
                         <ul>
-                            <li>Produce full capacity Cooling only compressor as the core Daikin compressor production base</li>
-                            <li>Manufacture parts of air conditioners</li>
-                            <li>Using the Production of Daikin System (PDS) to find waste in the process to reduce
-                                production costs</li>
-                            <li>Create a culture of continuous improvement (Kaizen) throughout the organization.</li>
-                            <li>Adhere to the basic principles of SQCDE</li>
+                            <li>@lang("phrase.vmSection5.text2")</li>
+                            <li>@lang("phrase.vmSection5.text3")</li>
+                            <li>@lang("phrase.vmSection5.text4")</li>
+                            <li>@lang("phrase.vmSection5.text5")</li>
+                            <li>@lang("phrase.vmSection5.text6")</li>
                         </ul>
                     </div>
                 </div>
@@ -121,40 +113,36 @@
                                 <div class="item-charstrategy">
                                     <div class="txt-charstrategy char-green">s</div>
                                     <div class="desc-charstrategy">
-                                        <div class="char-green">safety</div>
-                                        ป้องกันการบาดเจ็บ เจ็บป่วยของพนักงานโดยกำจัดอันตรายและลดความเสี่ยงดำเนินกิจกรรม
-                                        5ส3FIX อย่างต่อเนื่อง
+                                        <div class="char-green">@lang("phrase.vmSection6_1.header1")</div>
+                                        @lang("phrase.vmSection6_2.text1")
                                     </div>
                                 </div>
                                 <div class="item-charstrategy">
                                     <div class="txt-charstrategy char-green2">Q</div>
                                     <div class="desc-charstrategy">
-                                        <div class="char-green2">quality</div>
-                                        ผลิตงานดี ปฎิบัติตามกฎและMQ อย่างเคร่งคัดป้องกันปัญหาโดยใช้หลักการ3Gen
-                                        และยกระดับบุคลากรในการ Kaizen
+                                        <div class="char-green2">@lang("phrase.vmSection6_1.header2")</div>
+                                        @lang("phrase.vmSection6_2.text2")
                                     </div>
                                 </div>
                                 <div class="item-charstrategy">
                                     <div class="txt-charstrategy char-purple">c</div>
                                     <div class="desc-charstrategy">
-                                        <div class="char-purple">cost</div>
-                                        ใช้ระบบการผลิตแบบ PDS ในการหาความสูญเปล่าในกระบวนการเพื่อลดต้นทุนการผลิต
+                                        <div class="char-purple">@lang("phrase.vmSection6_1.header3")</div>
+                                        @lang("phrase.vmSection6_2.text3")
                                     </div>
                                 </div>
                                 <div class="item-charstrategy">
                                     <div class="txt-charstrategy char-green3">d</div>
                                     <div class="desc-charstrategy">
-                                        <div class="char-green3">delivery</div>
-                                        ผลิตสินค้าใหม่ที่หลากหลายอย่างต่อเนื่อง ส่งมอบตรงเวลา ในราคายุติธรรม
+                                        <div class="char-green3">@lang("phrase.vmSection6_1.header4")</div>
+                                        @lang("phrase.vmSection6_2.text4")
                                     </div>
                                 </div>
                                 <div class="item-charstrategy">
                                     <div class="txt-charstrategy char-green4">e</div>
                                     <div class="desc-charstrategy">
-                                        <div class="char-green4">environment</div>
-                                        บริหารจัดการ การใช้ทรัพยากรธรรมชาติและพลังงาน
-                                        ด้วยเทคโนโลยีที่เหมาะสมให้เกิดประโยชน์สูงสุด
-                                        และสนับสนุนพนักงานทุกคนมีส่วนร่วมกิจกรรมด้านสิ่งแวดล้อมอย่างต่อเนื่อง
+                                        <div class="char-green4">@lang("phrase.vmSection6_1.header5")</div>
+                                        @lang("phrase.vmSection6_2.text5")
                                     </div>
                                 </div>
                             </div>
